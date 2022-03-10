@@ -26,6 +26,9 @@ documentation = "https://github.com/bolcom/unFTP"
 path="crates/redislog"
 version="0.1.2"
 
+[patch.crates-io]
+libunftp = { git = "https://github.com/mocurin/libunftp", branch = "master" }
+
 [dependencies]
 async-trait = "0.1.52"
 base64 = "0.13.0"
